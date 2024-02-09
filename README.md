@@ -190,6 +190,23 @@ The implementation of this project MUST be in the form of a REST, gRPC, or Graph
 
 > Write how to run your service in local or development environment here. If you use Docker to serve your DBMS or your server, you will receive bonus points for your submission.
 
+### Tech Stack
+Programming Languange: Go v 1.21.5
+Framework: Gin
+ORM: GORM
+Database: MySQL
+Authentication: JWT
+
+###Installation Guide
+1. Clone this repository to your local
+2. On file `.env.example` rename this file to `.env`
+3. Fill up `.env` with your credentials
+4. run the program with command `go run main.go`
+
+###API Documentation
+https://documenter.getpostman.com/view/32186007/2s9YyzcdBR
+
+
 ## **[📞](https://emojipedia.org/telephone-receiver)** Contact
 
 Have any questions? You can contact either [Vinncent](https://www.instagram.com/centwong_) or [Izra](https://www.instagram.com/izrarya).
